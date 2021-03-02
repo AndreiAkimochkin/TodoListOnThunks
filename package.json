@@ -2,7 +2,7 @@
   "name": "todo-16",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AndreiAkimochkin.github.io/TodoListOnThunks",
+  "homepage": "https://andreiakimochkin.github.io/TodoListOnThunks/",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
@@ -29,7 +29,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
